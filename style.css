@@ -9,31 +9,29 @@
     height: 50px;
 }
 
-.wraper-1 {
+.wraper-all {
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-start;
-    align-items:stretch;
+}
+.wraper-1, .wraper-2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 .hero {
     background-color: magenta;
     width: 400px;
     height: 175px;
 }
-.main-content {
-    background-color: yellow;
-    width: 600px;
-    height: 300px;
-}
-
-/* .wraper-2 {
-    display: flex;
-    justify-content: flex-start;
-} */
 .sidebar {
     background-color: lightgreen;
     width: 400px;
     height: 225px;
+}
+.main-content {
+    background-color: yellow;
+    width: 600px;
+    height: 300px;
 }
 .extra-content {
     background-color: gray;
