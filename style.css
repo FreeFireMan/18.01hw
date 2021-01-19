@@ -1,11 +1,27 @@
-* {
+*{
     margin: 0;
     padding: 0;
+}
+/*width*/
+.w1000{
+    width: 1000px;
+}
+
+.w400{
+    width: 400px;
+}
+
+.w600{
+    width: 600px;
+}
+
+.wrap{
+    margin: 0 auto;
 }
 
 .header {
     background-color: blue;
-    width: 1000px;
+    /*width: 1000px;*/
     height: 50px;
 }
 
@@ -20,22 +36,22 @@
 }
 .hero {
     background-color: magenta;
-    width: 400px;
+    /*width: 400px;*/
     height: 175px;
 }
 .sidebar {
     background-color: lightgreen;
-    width: 400px;
+    /*width: 400px;*/
     height: 225px;
 }
 .main-content {
     background-color: yellow;
-    width: 600px;
+    /*width: 600px;*/
     height: 300px;
 }
 .extra-content {
     background-color: gray;
-    width: 600px;
+    /*width: 600px;*/
     height: 100px;
 }
 
@@ -56,6 +72,6 @@
 
 .footer {
     background-color: orange;
-    width: 1000px;
+    /*width: 1000px;*/
     height: 50px;
 }
