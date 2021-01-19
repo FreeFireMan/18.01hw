@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: blue;
+    width: 1000px;
+    height: 50px;
+}
+
+.wraper-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:stretch;
+}
+.hero {
+    background-color: magenta;
+    width: 400px;
+    height: 175px;
+}
+.main-content {
+    background-color: yellow;
+    width: 600px;
+    height: 300px;
+}
+
+/* .wraper-2 {
+    display: flex;
+    justify-content: flex-start;
+} */
+.sidebar {
+    background-color: lightgreen;
+    width: 400px;
+    height: 225px;
+}
+.extra-content {
+    background-color: gray;
+    width: 600px;
+    height: 100px;
+}
+
+.wraper-3 {
+    display: flex;
+    justify-content: flex-start;
+}
+.related-images {
+    background-color: green;
+    width: 700px;
+    height: 100px;
+}
+.related-posts {
+    background-color: pink;
+    width: 300px;
+    height: 100px;
+}
+
+.footer {
+    background-color: orange;
+    width: 1000px;
+    height: 50px;
+}
